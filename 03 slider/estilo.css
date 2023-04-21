@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding:0px;
+}
+body{
+  text-align: center ;
+}
+
+label {
+  width :500px ;
+  height :200px ;
+  border: solid black;
+}
+#v{
+   border: 1px solid grey;
+   height: 60px;
+   position: relative;
+   width: 100%;
+}
+
+#v > .progress{
+   background: #14aaf6;
+   height: 100%;
+   position: absolute;
+   width: 100%;
+}
+
+#v> .indicator{
+   background: darkred;
+   height: 100%;
+   position: absolute;
+   width: 10%;
+}

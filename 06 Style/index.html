@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style</title>
+   <style>
+    *{
+        transition: 2s ease all;
+    }
+    body{
+        text-align: center;
+    }
+    div{
+        width: 100px;
+        height: 100px;
+        display: block;
+        border: 2px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+   </style>
+</head>
+<body onload="cambiar()">
+    <h1>CAMBIAR ESTILO CON JS</h1><hr>
+    Color Fondo: <input type="color" id="color" onchange="cambiar()" value="#FF0000"><br>
+    Color Texto: <input type="color" id="colort" onchange="cambiar()" value="#ffffff"><br>
+    Color Borde: <input type="color" id="colorb" onchange="cambiar()"> <br>
+    Texto: <input type="text" id="texto" onkeyup="cambiar()"> <br>
+    Alto: <input type="range" id="alto" onchange="cambiar()" min="0" max="100" value="50"> <br>
+    Ancho: <input type="range" id="ancho" onchange="cambiar()" min="0" max="100" value="50"> <br>
+    Figura: <select name="figura" id="figura" onchange="cambiar()">
+        <option value="1">Cuadro</option>
+        <option value="2">Circulo</option>
+    </select><br><br><br>
+    <div id="item">HOLA</div>
+    <script src="app.js"></script>
+</body>
+</html>

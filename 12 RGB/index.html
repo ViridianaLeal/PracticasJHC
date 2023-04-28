@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>RGB</title>
+</head>
+<body id="body" onload="cambiarFondo()">
+    <h1>RGB</h1> <hr>
+    <table>
+        <tr>
+            <td>Color 1</td>
+            <td>Color 2</td>
+        </tr>
+        <tr>
+            <td>R<input type="range" id="r1" min="0" max="225" value="0"><span id="vr1">0</span></td>
+            <td>R<input type="range" id="r2" min="0" max="225" value="0"><span id="vr2">0</span></td>
+        </tr>
+        <tr>
+            <td>G<input type="range" id="g1" min="0" max="225" value="0"><span id="vg1">0</span></td>
+            <td>G<input type="range" id="g2" min="0" max="225" value="0"><span id="vg2">0</span></td>
+        </tr>
+        <tr>
+            <td>B<input type="range" id="b1" min="0" max="225" value="0"><span id="vb1">0</span></td>
+            <td>B<input type="range" id="b2" min="0" max="225" value="0"><span id="vb2">0</span></td>
+        </tr>
+        <tr>
+            <td id="c1" colspan="2">GRADOS<input type="range" id="grados" value="0" min="360"><span id="vgrados">0</span></td>
+            <td id="c2"></td>
+        </tr>
+    </table>
+    <script src="app.js"></script>
+    
+</body>
+</html>

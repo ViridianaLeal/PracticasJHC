@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    height: 100vh;
+}
+table{
+    margin: 10px auto;
+}
+td{
+    padding: 10px;
+}
+span{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+}

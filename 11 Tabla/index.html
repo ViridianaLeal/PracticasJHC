@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Generar Tabla</title>
+</head>
+
+<body>
+  <body onunload="generar()">
+  <h1>Generar Tabla</h1><hr>
+  <table>
+    <tr>
+      <td>Filas</td>
+      <td><input type="range" id="fil" min="1" max="100" value="1"></td>
+      <td><span id="vf">1</span></td>
+      </tr>
+      <tr>
+      <td>Columnas:</td>
+      <td><input type="range" id="col" min="1" max="100" value="1" ></td>
+      <td><span id="vc">1</span></td>
+      </tr>
+      <tr>
+     <td>Color impar:</td>
+     <td><input type="color" id="cp"></td>
+     <td></td>
+     </tr>
+     <tr>
+       <td>Color par:</td>
+        <td><input type="color" id="ci"></td>
+     <td></td>
+     </tr>
+  </table>
+<div id="res"></div>
+<script src="app.js"></script>
+</body>
+
+</html>

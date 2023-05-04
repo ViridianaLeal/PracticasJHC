@@ -1,0 +1,15 @@
+*{
+  margin :0px;
+  padding :0px;
+}
+body{
+  text-align: center ;
+  font-size: 50px;
+  background :pink ;
+}
+input{ 
+  width :500px ;
+}
+label{
+ 
+}

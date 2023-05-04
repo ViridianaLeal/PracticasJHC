@@ -1,0 +1,26 @@
+*{
+  margin :0px;
+  padding:0px;
+  text-align:center ;
+}
+div{
+  width :1000px;
+  height:1000px;
+  background: pink;
+  display:flex;
+  justify-content: center;
+  align-items: center ;
+}
+.cajita{
+  margin: 20px;
+  padding :10px ;
+  width:90px;
+  height :90px;
+  background : hotpink;
+  font-size:90px;
+  
+}
+#n{
+  width :1000px ;
+  height :50px ;
+}

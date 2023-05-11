@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 50px;
+}
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+div{
+    
+    background: rgb(190, 212, 231);
+    align-items: center;
+    
+}
+img{
+    width: 700px;
+    height: 500px;
+}
+h1{
+    font-size: 50px;
+}
+label{
+ font-size: 40px;
+}
+h3{
+    font-size: 50px;
+}
+span{
+ font-size: 40px;
+}
